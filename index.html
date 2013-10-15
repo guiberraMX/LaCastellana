@@ -12,27 +12,34 @@
     var map;
     $(document).ready(function(){
       map = new GMaps({
-        el: '#mapa',
+        el: '#map',
         lat: 19.419447,
-        lng: -99.09828,
-        zoomControl : true,
-        zoomControlOpt: {
-            style : 'SMALL',
-            position: 'TOP_LEFT'
-        },
-        panControl : false,
-        streetViewControl : false,
-        mapTypeControl: false,
-        overviewMapControl: false
+        lng: -99.09828
       });
-     
+      map.addMarker({
+        lat: 19.41333,
+        lng: -99.09,
+        title: 'La Castellana',
+        details: {
+          database_id: 42,
+          author: 'Social Value'
+        },
+        click: function(e){
+          if(console.log)
+            console.log(e);
+          alert('¡Aquí podras encontrar todo lo que tu negocio de comida necesita!');
+        },
+        mouseover: function(e){
+          if(console.log)
+            console.log(e);
+        }
+      });
+      
     });
-    
-
   </script>
 
 </head>
 <body>
-	<div id="mapa"></div>
+	<div id="map"></div>
 </body>
 </html>
