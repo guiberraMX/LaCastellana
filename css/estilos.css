@@ -1,0 +1,9 @@
+body{
+	background-color: red;
+}
+#mapa{
+  display: block;
+  width: 95%;
+  height: 350px;
+  margin: 0 auto;
+}
