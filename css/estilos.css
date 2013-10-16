@@ -46,7 +46,7 @@ nav ul li a:hover{
 	margin: 0px;
 	padding: 2em;
 	text-align: left;
-	width: 40%;
+	width: 45%;
 	
 }
 #promo{
@@ -55,7 +55,7 @@ nav ul li a:hover{
 	color:#060F14;
 	margin: 0px;
 	padding: 2em;
-	width: 40%;
+	width: 45%;
 }
 #info, #promo{
 	display: inline-block;
