@@ -61,3 +61,28 @@ nav ul li a:hover{
 	display: inline-block;
 	vertical-align: top;
 }
+
+
+#identidad{
+	text-align: left;
+    width: 40%;
+}
+#identidad img{
+	width: 100%;
+}
+#identidad figcaption{
+	margin: 5em;
+}
+#nosotrosinfo{
+	    background: #F4F8F5;
+        display: inline-block;
+        margin: 0;
+        padding: 2em;
+        text-align: justify;
+        width: 50%;
+
+}
+#nosotrosinfo, #identidad{
+	display: inline-block;
+    vertical-align: top;
+}
