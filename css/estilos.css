@@ -1,6 +1,6 @@
 body{
-	background-color: #d2e8f8;
-	color:#060f14;
+	background-color: #F4F8F5;
+	color:#060F14;
 	font-family: Arial;
 	font-size: 16px;
 	text-align: center;
@@ -40,19 +40,19 @@ nav ul li a:hover{
   margin: 0 auto;
 }
 #info{
-	background-color: #f4f8f5;
-	color: #060F14;
-	font-size: 1em;
+	background-color: #060F14;
+	color:#F4F8F5;
+	font-size: 1.5em;
 	margin: 0px;
 	padding: 2em;
 	text-align: left;
-	width: 45%;
+	width: 40%;
 	
 }
 #promo{
 	background-color: #312C46;
 	font-size: 1em;
-	color:#060F14;
+	color:#F4F8F5;
 	margin: 0px;
 	padding: 2em;
 	width: 45%;
@@ -74,7 +74,7 @@ nav ul li a:hover{
 	margin: 5em;
 }
 #nosotrosinfo{
-	    background: #F4F8F5;
+	    background: #DCE3DC;
         display: inline-block;
         margin: 0;
         padding: 2em;
@@ -85,4 +85,8 @@ nav ul li a:hover{
 #nosotrosinfo, #identidad{
 	display: inline-block;
     vertical-align: top;
+}
+footer{
+	background-color: #060F14;
+
 }
