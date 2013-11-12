@@ -22,14 +22,14 @@ nav ul li a{
 	background-color: #060F14;
 	color: #F4F8F5;
 	display: inline-block;
-	margin-right: 1em;
+	margin-right: 1.5em;
 	padding: 0.5em;
 	text-decoration: none;
 	transition: all 0.1s ease-out;
 
 }
 nav ul li a:hover{
-	background-color: #464855;
+	background-color: #566999;
 	transform: scale(1.1);
 
 }
@@ -86,7 +86,27 @@ nav ul li a:hover{
 	display: inline-block;
     vertical-align: top;
 }
+
+
+
 footer{
 	background-color: #060F14;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #DCE3DC;
+	left: 0px;
+	text-align: left;
+	padding: 0,100px,0px,0;
+	
 
+
+}
+footer p{
+	display: inline-block;
+	
+}
+#socialvalue{
+	display:inline-block;
+	text-align: right;
 }
